@@ -4,16 +4,16 @@ body{
 }
 .card{
     background-color: hsl(216, 50%, 16%);
-    border-radius: 10px;
+    border-radius: 15px;
     width: 300px;
     margin: 0 auto;
-    margin-top: 50px;
+    margin-top: 150px;
     padding: 20px;
-    box-shadow: 0 0 50px 5px hsla(0, 0%, 0%, 0.582);
+    box-shadow: 0 0 50px 5px hsla(0, 0%, 0%, 0.3);
 }
 h1{
     color: hsl(0, 0%, 100%);
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 600;
     text-align: left;
     margin-top: 20px;
