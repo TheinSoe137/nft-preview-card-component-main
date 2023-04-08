@@ -1,0 +1,92 @@
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 0 50px 5px hsla(0, 0%, 0%, 0.582);
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: left;
+    margin-top: 20px;
+}
+.card img{
+    width:100%;
+    border-radius: 10px;
+}
+.price-time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.price{
+    display: inline-flex;
+    color:hsl(178, 100%, 50%);
+    align-items: center;
+}
+.price img{
+    width: 0.7em;
+    margin-right: 5px;
+    
+}
+
+.time { 
+    display: inline-flex;
+    color: hsl(215, 51%, 70%);
+    align-items: center;
+}
+
+.time img{
+    width: 21px;
+    margin-right: 5px;
+    vertical-align: center;
+
+}
+.line{
+   height: 1px;
+   background: hsl(215, 32%, 27%);
+
+}
+p{
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20px;
+}
+.name{
+    display: inline-flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.name p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.name img {
+    width: 2rem;
+    border: 1px white solid;    
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.name span{
+ color:white;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
